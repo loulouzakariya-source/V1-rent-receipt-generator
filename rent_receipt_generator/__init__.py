@@ -1,0 +1,1 @@
+"""Rent receipt generator package."""
