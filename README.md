@@ -24,26 +24,6 @@ Rent Receipt Generator is intentionally local-first:
 - Generated receipts are stored under `quittances/`.
 - The private Word template is expected to be named `Quittance_Template.docx`.
 
-These files are ignored by Git:
-
-```text
-*.db
-quittances/
-Quittance_Template.docx
-.env
-.env.*
-*.local.*
-```
-
-Before publishing the repository, always run:
-
-```powershell
-git status
-git ls-files
-```
-
-Make sure no database, real template, generated receipt, tenant name, tenant email, landlord name, or real address is tracked by Git.
-
 ## Requirements
 
 - Windows
