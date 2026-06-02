@@ -71,8 +71,6 @@ The template can contain placeholders such as:
 {loyer_charges_uniquement}
 ```
 
-The real template is private and should not be committed. If you want to publish an example template later, create an anonymized file such as `Quittance_Template.example.docx`.
-
 ## Initialize The Database
 
 ```powershell
@@ -224,8 +222,6 @@ Run tests:
 python -m pytest
 ```
 
-These tests do not use your real database, do not open Microsoft Word, and do not send emails.
-
 ## Project Structure
 
 ```text
@@ -250,9 +246,3 @@ tests/
 - The project currently supports one active apartment assignment per tenant.
 - Email delivery depends on Gmail SMTP availability and valid app-password credentials.
 
-## Roadmap
-
-- Add a desktop GUI for non-technical usage.
-- Add an anonymized sample Word template.
-- Add optional global confirmation before sending all emails.
-- Add import/export helpers for backup and migration.
